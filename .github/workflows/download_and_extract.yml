@@ -1,0 +1,12 @@
+name: download_and_extract
+on: workflow_dispatch
+jobs:
+  dl-and-xtract:
+    runs-on: ubuntu-latest
+    steps:
+#      - uses: actions/checkout@v2
+#      - uses: actions/setup-node@v2
+#        with:
+#          node-version: '14'
+      - run: wget https://github.com/Naunter/BT_BlockLists/raw/master/bt_blocklists.gz
+      
