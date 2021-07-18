@@ -8,5 +8,5 @@ jobs:
 #      - uses: actions/setup-node@v2
 #        with:
 #          node-version: '14'
-      - run: wget https://github.com/Naunter/BT_BlockLists/raw/master/bt_blocklists.gz
+      - run: wget https://github.com/Naunter/BT_BlockLists/raw/master/bt_blocklists.gz -o bt_blocklists.gz
       
