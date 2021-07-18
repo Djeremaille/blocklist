@@ -8,5 +8,6 @@ jobs:
 #      - uses: actions/setup-node@v2
         with:
           file-url: 'https://github.com/Naunter/BT_BlockLists/raw/master/bt_blocklists.gz'
+          file-name: 'bt_blocklists.gz'
 #      - run: wget https://github.com/Naunter/BT_BlockLists/raw/master/bt_blocklists.gz -o bt_blocklists.gz
       
